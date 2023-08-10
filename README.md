@@ -58,19 +58,55 @@ there is a PostMan Exapmle file in this reposotory
    } <br>
    
 3. Login <br>
+URL: http://localhost:8000/api/signup <br>
+   Method: POST <br>
+   Request Data: <br>
+   { <br>
+   
+   } <br>
 
-#### all of the following urls you should be loged in, using the tokin as Barer Token
+#### all of the following URLs you should be logged in, using the token as Barer Token
 3. Tasks List <br>
+URL: http://localhost:8000/api/signup <br>
+   Method: POST <br>
+   Request Data: <br>
+   { <br>
+   
+   } <br>
 
 4. Add Task <br>
+URL: http://localhost:8000/api/signup <br>
+   Method: POST <br>
+   Request Data: <br>
+   { <br>
+   
+   } <br>
 
    
 5. Edit Task <br>
+URL: http://localhost:8000/api/signup <br>
+   Method: POST <br>
+   Request Data: <br>
+   { <br>
+   
+   } <br>
 
 
 6. Delete Task <br>
+URL: http://localhost:8000/api/signup <br>
+   Method: POST <br>
+   Request Data: <br>
+   { <br>
+   
+   } <br>
 
 
 7. Show Task  <br>
+URL: http://localhost:8000/api/signup <br>
+   Method: POST <br>
+   Request Data: <br>
+   { <br>
+   
+   } <br>
 
  
