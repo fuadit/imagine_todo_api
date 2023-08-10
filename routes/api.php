@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\API\LoginController;
+use App\Http\Controllers\API\TasksController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -22,6 +23,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::post('/signup', [LoginController::class, 'SignUp']);
 Route::post('/login', [LoginController::class, 'Login']);
 
-Route::get('/tasks', function () {
-    return 'hey';
+Route::prefix('tasks')->middleware('auth:sanctum')->group(function () {
+    Route::post('/', [TasksController::class, 'store']);
+    Route::put('/{task}', [TasksController::class, 'update']);
+    Route::get('/{task}', [TasksController::class, 'show']);
+    Route::delete('/{task}', [TasksController::class, 'destroy']);
 });
