@@ -49,28 +49,28 @@ there is a PostMan Exapmle file in this reposotory
 
 
 ### Functionalities 
-1. Register
-   URL: http://localhost:8000/api/signup
-   Method: POST
-   Request Data:
-   {
+1. Register <br>
+   URL: http://localhost:8000/api/signup <br>
+   Method: POST <br>
+   Request Data: <br>
+   { <br>
    
-   }
+   } <br>
    
-3. Login
+3. Login <br>
 
 #### all of the following urls you should be loged in, using the tokin as Barer Token
-3. Tasks List
+3. Tasks List <br>
 
-4. Add Task
+4. Add Task <br>
 
    
-5. Edit Task
+5. Edit Task <br>
 
 
-6. Delete Task
+6. Delete Task <br>
 
 
-7. Show Task 
+7. Show Task  <br>
 
  
