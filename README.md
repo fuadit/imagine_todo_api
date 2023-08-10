@@ -91,6 +91,7 @@ URL: http://localhost:8000/api/tasks <br>
 URL: http://localhost:8000/api/tasks/{task_id} <br>
    Method: PUT <br>
    Request Data: <br>
+   ```
    { <br>
    title,<br>
    description,<br>
@@ -98,6 +99,7 @@ URL: http://localhost:8000/api/tasks/{task_id} <br>
    status,<br>
    assignee,<br>
    } <br>
+   ```
 
 
 6. Delete Task <br>
