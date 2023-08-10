@@ -53,20 +53,24 @@ there is a PostMan Exapmle file in this reposotory
    URL: http://localhost:8000/api/signup <br>
    Method: POST <br>
    Request Data: <br>
-   { <br>
-   name,<br>
-   email,<br>
-   password<br>
-   } <br>
+   ```
+   { 
+   name,
+   email,
+   password
+   } 
+   ```
    
 3. Login <br>
 URL: http://localhost:8000/api/login <br>
    Method: POST <br>
    Request Data: <br>
-   { <br>
-   email,<br>
-   password<br>
-   } <br>
+   ```
+   { 
+   email,
+   password
+   }
+   ```
 
 #### all of the following URLs you should be logged in, using the token as Barer Token
 3. Tasks List <br>
@@ -78,13 +82,15 @@ URL: http://localhost:8000/api/tasks <br>
 URL: http://localhost:8000/api/tasks <br>
    Method: POST <br>
    Request Data: <br>
-    { <br>
-   title,<br>
-   description,<br>
-   due_date,<br>
-   status,<br>
-   assignee,<br>
-   } <br>
+   ```
+    { 
+   title,
+   description,
+   due_date,
+   status,
+   assignee,
+   }
+   ```
 
    
 5. Edit Task <br>
@@ -92,13 +98,13 @@ URL: http://localhost:8000/api/tasks/{task_id} <br>
    Method: PUT <br>
    Request Data: <br>
    ```
-   { <br>
-   title,<br>
-   description,<br>
-   due_date,<br>
-   status,<br>
-   assignee,<br>
-   } <br>
+   { 
+   title,
+   description,
+   due_date,
+   status,
+   assignee,
+   }
    ```
 
 
