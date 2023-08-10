@@ -13,8 +13,9 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/fuad-works/imagine_todo_api.git
+```bash
+git clone https://github.com/fuad-works/imagine_todo_api.git
+```
    
 2. Install PHP dependencies using Composer:
 
@@ -29,9 +30,9 @@ cp .env.example .env
 ```
 
 4. Generate the application key:
-   ```bash
-   php artisan key:generate
-   ```
+```bash
+php artisan key:generate
+```
 
 6. Create the database tables (make sure you created the database in mysql and set the configrations in .env file)
 ```bash
@@ -44,7 +45,32 @@ php artisan serve
 - Log in with the registered user credentials using the /api/login endpoint. This will return an authentication token.
 - Use the token to access protected routes that require authentication.
 
-  there is a PostMan Exapmle file in this reposotory 
-    
+there is a PostMan Exapmle file in this reposotory 
+
+
+### Functionalities 
+1. Register
+   URL: http://localhost:8000/api/signup
+   Method: POST
+   Request Data:
+   {
+   
+   }
+   
+3. Login
+
+#### all of the following urls you should be loged in, using the tokin as Barer Token
+3. Tasks List
+
+4. Add Task
+
+   
+5. Edit Task
+
+
+6. Delete Task
+
+
+7. Show Task 
 
  
