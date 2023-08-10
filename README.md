@@ -54,7 +54,9 @@ there is a PostMan Exapmle file in this reposotory
    Method: POST <br>
    Request Data: <br>
    { <br>
-   
+   name,<br>
+   email,<br>
+   password<br>
    } <br>
    
 3. Login <br>
@@ -62,51 +64,51 @@ URL: http://localhost:8000/api/signup <br>
    Method: POST <br>
    Request Data: <br>
    { <br>
-   
+   email,<br>
+   password<br>
    } <br>
 
 #### all of the following URLs you should be logged in, using the token as Barer Token
 3. Tasks List <br>
-URL: http://localhost:8000/api/signup <br>
-   Method: POST <br>
-   Request Data: <br>
-   { <br>
-   
-   } <br>
+URL: http://localhost:8000/api/login <br>
+   Method: GET <br>
+   Request Data: nothing <br>
 
 4. Add Task <br>
-URL: http://localhost:8000/api/signup <br>
+URL: http://localhost:8000/api/tasks <br>
    Method: POST <br>
    Request Data: <br>
-   { <br>
-   
+    { <br>
+   title,<br>
+   description,<br>
+   due_date,<br>
+   status,<br>
+   assignee,<br>
    } <br>
 
    
 5. Edit Task <br>
-URL: http://localhost:8000/api/signup <br>
-   Method: POST <br>
+URL: http://localhost:8000/api/tasks/{task_id} <br>
+   Method: PUT <br>
    Request Data: <br>
    { <br>
-   
+   title,<br>
+   description,<br>
+   due_date,<br>
+   status,<br>
+   assignee,<br>
    } <br>
 
 
 6. Delete Task <br>
-URL: http://localhost:8000/api/signup <br>
-   Method: POST <br>
-   Request Data: <br>
-   { <br>
-   
-   } <br>
+URL: http://localhost:8000/api/tasks/{task_id} <br>
+   Method: DELETE <br>
+   Request Data: nothing <br>
 
 
 7. Show Task  <br>
-URL: http://localhost:8000/api/signup <br>
-   Method: POST <br>
-   Request Data: <br>
-   { <br>
-   
-   } <br>
+URL: http://localhost:8000/api/tasks/{task_id} <br>
+   Method: GET <br>
+   Request Data: nothing <br>
 
  
