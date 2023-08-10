@@ -9,8 +9,15 @@ use Illuminate\Support\Facades\Validator;
 
 class TasksController extends Controller
 {
-    public function getTasks()
+    public function index()
     {
+        if (auth()->user()->user_type != 1) {
+            $tasks = Task::where('assignee', auth()->user()->id)->get();
+            return response()->json(['Your assigned tasks' => $tasks], 200);
+        } else {
+            $tasks = Task::all();
+            return response()->json(['All Tasks' => $tasks], 200);
+        }
     }
 
     public function store(Request $request)

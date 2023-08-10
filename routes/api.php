@@ -24,6 +24,7 @@ Route::post('/signup', [LoginController::class, 'SignUp']);
 Route::post('/login', [LoginController::class, 'Login']);
 
 Route::prefix('tasks')->middleware('auth:sanctum')->group(function () {
+    Route::get('/', [TasksController::class, 'index']);
     Route::post('/', [TasksController::class, 'store']);
     Route::put('/{task}', [TasksController::class, 'update']);
     Route::get('/{task}', [TasksController::class, 'show']);
