@@ -60,7 +60,7 @@ there is a PostMan Exapmle file in this reposotory
    } <br>
    
 3. Login <br>
-URL: http://localhost:8000/api/signup <br>
+URL: http://localhost:8000/api/login <br>
    Method: POST <br>
    Request Data: <br>
    { <br>
@@ -70,7 +70,7 @@ URL: http://localhost:8000/api/signup <br>
 
 #### all of the following URLs you should be logged in, using the token as Barer Token
 3. Tasks List <br>
-URL: http://localhost:8000/api/login <br>
+URL: http://localhost:8000/api/tasks <br>
    Method: GET <br>
    Request Data: nothing <br>
 
