@@ -36,9 +36,15 @@ php artisan key:generate
 
 6. Create the database tables (make sure you created the database in mysql and set the configrations in .env file)
 ```bash
+php artisan migrate
+```
+
+7. run the website
+```bash
 php artisan serve
 ```
-7. Access the app in your browser at http://localhost:8000.
+
+8. Access the app in your browser at http://localhost:8000.
 
 ## Usage 
 - Register a new user through the /api/register endpoint.
