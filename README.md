@@ -1,4 +1,4 @@
-# imagine_todo_api
+# Imagine Todo Api
 ## Laravel App with Sanctum
 .
 
